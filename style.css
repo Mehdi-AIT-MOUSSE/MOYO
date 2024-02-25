@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(bgj.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+form{
+width: 25em;
+height: auto;
+background-image: linear-gradient(to bottom, #424242c3,#212121de);
+display: flex;
+align-items: center;
+flex-direction: column;
+border-radius: 0.5rem;
+}
+
+form legend {
+color: wheat;
+margin: 2.5rem 0;
+font-size: 2rem;
+font-weight: 800;
+}
+
+form input {
+margin: 0.5rem 0;
+padding: 1rem 0.5rem;
+width: 20rem;
+background-color: inherit;
+color: wheat;
+border: none;
+outline: none;
+border-bottom: 1px solid wheat;
+transition: all 400ms;
+}
+
+form input:hover {
+background-color: #424242;
+border: none;
+border-radius: 0.5rem;
+}
+
+
+form button {
+height: 3rem;
+width: 20rem;
+margin-top: 3rem;
+background-color: wheat;
+border-radius: 0.5rem;
+border: none;
+font-size: 1.2rem;
+font-weight: 500;
+transition: all 400ms;
+box-shadow: 0 0 10px  antiquewhite, 0 0 10px antiquewhite;
+}
+
+form button:hover {
+background-color: antiquewhite;
+box-shadow: none;
+}
+
+form a{
+    color: #424242;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 1.3rem 0;
+}
+
+form a:hover{
+    color: wheat;
+    text-shadow:0 0 5px aliceblue ;
+}
+

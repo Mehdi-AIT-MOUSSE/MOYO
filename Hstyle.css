@@ -1,0 +1,85 @@
+*{
+    font-family: Georgia, serif;
+
+}
+
+
+body{
+    margin:0 3px;
+    height: 100vh;
+    background-color:rgb(12, 12, 12)
+
+}
+
+header {
+    background-image:url(images.jpeg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 20px;
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 0 5px whitesmoke;
+
+}
+header h1{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    margin: 0 15px;
+}
+nav a:hover{
+    text-decoration:underline;
+    text-shadow:0 0 5px aliceblue ;
+
+}
+
+section{
+    margin-top: 10px;
+    background-image:url(sbg.jpg);
+    box-shadow: 0 0 5px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 0 15px 0;
+}
+
+section h1{
+    color: wheat;
+    font-size: 5.6rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: wheat;
+    color: azure;
+    width: 6em;
+    height: 2em;
+    font-size: 1.9rem;
+    font-weight: 800;
+    border-radius: 8px;
+    text-shadow: 0 0 10px  white;
+    margin-bottom: 15px;
+}
+    
+section a:hover {
+    background-color: rgb(252, 246, 236);
+    color: wheat;
+
+}
